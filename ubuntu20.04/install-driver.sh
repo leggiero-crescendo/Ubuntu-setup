@@ -45,7 +45,7 @@ sudo ln -sf libcudnn.so.8 libcudnn.so
 ls -al libcudnn.so*
 ldconfig -N -v $(sed 's/:/ /' <<< $LD_LIBRARY_PATH) 2>/dev/null | grep libcudnn
 
-# Successful -> terminal show below
+# If done successfully, it should look like below
 #-------------------------------------------------------------#
 	# libcudnn_ops_infer.so.8 -> libcudnn_ops_infer.so.8.7.0
 	# libcudnn.so.8 -> libcudnn.so.8.7.0
