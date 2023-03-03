@@ -4,6 +4,9 @@
 sudo apt-get -y update
 sudo apt-get -y upgrade
 
+# Install Korean
+# https://shanepark.tistory.com/231
+
 # Install programs
 sudo apt-get -y install ubuntu-unity-desktop # Ubuntu renderer
 sudo snap install clion --classic # CLion IDE
