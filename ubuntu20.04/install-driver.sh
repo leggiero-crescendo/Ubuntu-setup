@@ -36,7 +36,7 @@ sudo chmod a+r /usr/local/cuda/includ/cudnn.h /usr/local/cuda/lib64/libcudnn*
 # ldconfig -N -v $(sed's/://'<<<$LD_LIBRARY_PATH)2>/dev/null|grep libcudnn
 
 # Cudnn Symbolic link 2 (https://lapina.tistory.com/130)
-cd /usr/local/cudnn-11.7/lib64
+cd /usr/local/cuda-11.7/lib64
 ls -al libcudnn.so*
 
 sudo ln -sf libcudnn.so.8.7.0 libcudnn.so.8
