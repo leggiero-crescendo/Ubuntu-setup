@@ -22,7 +22,7 @@ https://stackoverflow.com/questions/54429210/how-do-i-prevent-conda-from-activat
 ### ~/.bashrc에 작성한다.
 ```
 export CONDA_AUTO_ACTIVATE_BASE=false
-alias do_foxy='source /opt/ros/foxy/setup.bash; source ~/cjh_ws/ros2_ws/install/local_setup.bash; echo "Activate foxy!"'
-alias do_noetic='source /opt/ros/noetic/setup.bash; source ~/cjh_ws/ros1_ws/devel/setup.bash; echo "Activate noetic"'
+alias do_foxy='source /opt/ros/foxy/setup.bash; source ~/chae/ros2_ws/install/local_setup.bash; echo "Activate foxy!"'
+alias do_noetic='source /opt/ros/noetic/setup.bash; source ~/chae/ros1_ws/devel/setup.bash; echo "Activate noetic"'
 alias do_conda='conda activate base'
 ```
