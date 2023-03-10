@@ -88,5 +88,13 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githu
 sudo apt-get -y update
 sudo apt-get -y install gh
 
+
+# Screen recorder
+sudo apt install simplescreenrecorder
+
+
 # Finished
 echo "Now reboot system to apply changes"
+
+
+
