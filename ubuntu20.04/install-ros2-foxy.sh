@@ -62,7 +62,19 @@ sudo apt install ros-foxy-turtlesim
 echo "[#Install colcon to build packages]"
 sudo apt install python3-colcon-common-extensions
 
-
+echo "[#Setup Locale]"
+4
+sudo locale-gen en_US en_US.UTF-8
+5
+sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+6
+export LANG=en_US.UTF-8
+7
+​
+8
+​
+9
+echo "[#Setup Sources]"
 #echo "[#ros2_example_ws git clone / build / install]"
 #Create a workspace
 mkdir -p ~/ros2_example_ws/src
