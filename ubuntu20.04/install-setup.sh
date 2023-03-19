@@ -12,6 +12,7 @@ sudo apt-get -y install ubuntu-unity-desktop # Ubuntu renderer
 sudo snap install clion --classic # CLion IDE
 sudo snap install pycharm-community --classic # Pycharm Community IDE
 sudo snap install --classic code # Visual studio code
+
 sudo snap install ao # Microsoft Todo
 sudo snap install slack --classic # Slack
 sudo snap install teams # Microsoft Teams
@@ -97,4 +98,8 @@ sudo apt install simplescreenrecorder
 echo "Now reboot system to apply changes"
 
 
+# 한글 입력 불가시(VS code)
+# https://code.visualstudio.com/download
+$ sudo dpkg -i c~~~.sh
+$ sudo apt -f install
 
