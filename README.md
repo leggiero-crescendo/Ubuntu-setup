@@ -1,2 +1,5 @@
 Ubuntu Kernel version check
-- uname -a
+```shell
+$ uname -a
+$ cat /proc/version
+```
