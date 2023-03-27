@@ -12,3 +12,21 @@ $ cat /proc/version
 sudo apt install blueman
 sudo apt install bluez bluez-obexd
 ```
+- blueman-manager 실행 시 에러 발생
+```shell
+blueman-manager version 2.1.2 starting
+blueman-manager 23.05.51 ERROR    Manager:118 on_dbus_name_appeared: Default adapter not found, trying first available.
+blueman-manager 23.05.51 ERROR    Manager:122 on_dbus_name_appeared: No adapter(s) found, exiting
+
+```
+- sudo dmesg 확인시 ERROR발견
+```shell
+[  764.275596] Bluetooth: hci0: RTL: examining hci_ver=0a hci_rev=000b lmp_ver=0a lmp_subver=8761
+[  764.276657] Bluetooth: hci0: RTL: rom_version status=0 version=1
+[  764.276668] Bluetooth: hci0: RTL: loading rtl_bt/rtl8761bu_fw.bin
+[  764.276719] bluetooth hci0: Direct firmware load for rtl_bt/rtl8761bu_fw.bin failed with error -2
+[  764.276726] Bluetooth: hci0: RTL: firmware file rtl_bt/rtl8761bu_fw.bin not found
+```
+- [Install](https://forums.linuxmint.com/viewtopic.php?t=377733)
+```
+```
