@@ -29,4 +29,7 @@ blueman-manager 23.05.51 ERROR    Manager:122 on_dbus_name_appeared: No adapter(
 ```
 - [Install](https://forums.linuxmint.com/viewtopic.php?t=377733)
 ```
+$ cd /usr/lib/firmware/rtl_bt
+$ sudo ln -s rtl8761b_fw.bin rtl8761bu_fw.bin
 ```
+- 재시작 하면! 됨
